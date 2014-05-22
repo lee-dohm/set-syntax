@@ -1,13 +1,12 @@
 {
   "name": "set-syntax",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Creates easy Command Palette commands for setting the syntax of the current file",
   "repository": "https://github.com/lee-dohm/set-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
