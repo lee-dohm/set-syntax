@@ -5,6 +5,7 @@
 module.exports =
   # Activates the package.
   activate: ->
+    atom.syntax.getGrammars().map (grammar) -> createCommand(grammar)
     atom.syntax.on 'grammar-added', (grammar) -> createCommand(grammar)
 
 # Creates the command for a given {Grammar}.
