@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.1.0** - *Released: 14 July 2014*
+
+* :bug: [#1] Ensures that grammars already loaded are added as commands
+* :bug: [#2] Guards against undefined grammar names
+
 ## **v0.0.2** - *Released: 23 May 2014*
 
 * :memo: Enhanced README
