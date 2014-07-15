@@ -12,8 +12,9 @@ module.exports =
 #
 # grammar - {Grammar} the command will be for.
 createCommand = (grammar) ->
-  atom.workspaceView.command "set-syntax:#{nameToCommand(grammar.name)}", ->
-    atom.workspace.getActiveEditor()?.setGrammar(grammar)
+  if grammar?.name?
+    atom.workspaceView.command "set-syntax:#{nameToCommand(grammar.name)}", ->
+      atom.workspace.getActiveEditor()?.setGrammar(grammar)
 
 # Converts a grammar name into the format expected of commands.
 #
@@ -21,4 +22,4 @@ createCommand = (grammar) ->
 #
 # Returns a {String} containing the name of the grammar formatted as a command.
 nameToCommand = (name) ->
-  name.toLowerCase().replace /\s/g, '-'
+  name?.toLowerCase().replace /\s/g, '-'
