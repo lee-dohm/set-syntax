@@ -1,6 +1,6 @@
-# Set Syntax Atom Package
+# Set Syntax
 
-The Set Syntax package creates easy Command Palette entries for setting the syntax of the current file.
+The Set Syntax Atom package creates easy Command Palette entries for setting the syntax of the current file.
 
 It is designed to make the transition to Atom easier for people migrating from Sublime Text by mimicking the method by which one changes the syntax of the current buffer in that editor.
 
@@ -12,17 +12,17 @@ This package can be installed from Settings by searching for `set-syntax` or can
 
 Simply use the way you're used to in Sublime Text!
 
-![Set Syntax demonstration](https://s3.amazonaws.com/lee-dohm/set-syntax.gif)
+![Set Syntax demonstration](https://raw.githubusercontent.com/lee-dohm/set-syntax/master/set-syntax.gif)
 
 ## Configuration
 
 There is nothing to configure.
 
-## Keymaps
+### Key Bindings
 
-There are no key mappings set, though you could set key mappings for specific languages that you use often. For example:
+There are no key bindings set by default, though you could set keys for specific languages that you use often. For example:
 
-```cson
+```coffee
 '.editor:not(.mini)':
   'alt-cmd-Z': 'set-syntax:ruby'
 ```
