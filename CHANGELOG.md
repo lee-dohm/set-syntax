@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.2.0** &mdash; *Released: 25 January 2015*
+
+* Fixed deprecations
+* Added tests
+
 ## **v0.1.0** - *Released: 14 July 2014*
 
 * :bug: [#1](https://github.com/lee-dohm/set-syntax/pull/1) @maschs &mdash; Ensures that grammars already loaded are added as commands

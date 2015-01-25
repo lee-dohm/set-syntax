@@ -1,13 +1,21 @@
+{CompositeDisposable} = require 'atom'
+
 _ = require 'underscore-plus'
 
 module.exports =
-  # Activates the package.
+  # Public: Activates the package.
   activate: ->
-    atom.grammars.getGrammars().map (grammar) =>
-      @createCommand(grammar)
+    @disposables = new CompositeDisposable
 
-    atom.grammars.onDidAddGrammar (grammar) =>
-      @createCommand(grammar)
+    atom.grammars.getGrammars().map (grammar) =>
+      @disposables.add @createCommand(grammar)
+
+    @disposables.add atom.grammars.onDidAddGrammar (grammar) =>
+      @disposables.add @createCommand(grammar)
+
+  # Public: Deactivates the package.
+  deactivate: ->
+    @disposables.dispose()
 
   # Private: Creates the command for a given {Grammar}.
   #
