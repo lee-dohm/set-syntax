@@ -23,5 +23,5 @@ module.exports =
   createCommand: (grammar) ->
     if grammar?.name?
       workspaceElement = atom.views.getView(atom.workspace)
-      atom.commands.add workspaceElement, "set-syntax:#{_.dasherize(grammar.name)}", ->
+      atom.commands.add workspaceElement, "set-syntax:#{grammar.name}", ->
         atom.workspace.getActiveTextEditor()?.setGrammar(grammar)
