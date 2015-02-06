@@ -14,11 +14,11 @@ describe 'Set Syntax', ->
 
   describe 'activation', ->
     it 'adds the commands', ->
-      expect(hasCommand(workspaceElement, 'set-syntax:java-script')).toBeTruthy()
+      expect(hasCommand(workspaceElement, 'set-syntax:JavaScript')).toBeTruthy()
 
   describe 'deactivation', ->
     beforeEach ->
       atom.packages.deactivatePackage('set-syntax')
 
     it 'removes the commands', ->
-      expect(hasCommand(workspaceElement, 'set-syntax:java-script')).toBeFalsy()
+      expect(hasCommand(workspaceElement, 'set-syntax:JavaScript')).toBeFalsy()
