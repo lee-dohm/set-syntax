@@ -1,12 +1,20 @@
 {
   "name": "set-syntax",
+  "author": "Lee Dohm <lee@lee-dohm.com>",
   "main": "./lib/main",
   "version": "0.2.1",
   "description": "Creates easy Command Palette commands for setting the syntax of the current file",
+  "keywords": [
+    "grammar",
+    "syntax",
+    "command",
+    "sublime",
+    "compatibility"
+  ],
   "repository": "https://github.com/lee-dohm/set-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
     "underscore-plus": "^1.6.6"

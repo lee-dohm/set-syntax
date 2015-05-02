@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## **v0.3.0** &mdash; *Released: 1 May 2015*
+
+* Cleanup for Deprecation Day
+* Add Travis-CI support
+* Add build and dependencies badges
+
 ## **v0.2.1** &mdash; *Released: 6 February 2015*
 
 * :bug: [#6](https://github.com/lee-dohm/set-syntax/issues/6) fixed by [@SalGnt](https://github.com/SalGnt) &mdash; Formatting for commands in command palette now all look correct.
