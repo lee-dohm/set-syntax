@@ -1,7 +1,5 @@
 {CompositeDisposable} = require 'atom'
 
-_ = require 'underscore-plus'
-
 module.exports =
   # Public: Activates the package.
   activate: ->
