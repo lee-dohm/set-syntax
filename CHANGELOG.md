@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.3.1** &mdash; *Released: 19 September 2016*
+
+* [PR #10](https://github.com/lee-dohm/set-syntax/pull/10) by [@idleberg](https://github.com/idleberg) &mdash; Remove unused underscore-plus dependency
+
 ## **v0.3.0** &mdash; *Released: 1 May 2015*
 
 * Cleanup for Deprecation Day
