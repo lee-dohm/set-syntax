@@ -6,10 +6,10 @@ module.exports =
     @disposables = new CompositeDisposable
 
     atom.grammars.getGrammars().map (grammar) =>
-      @disposables.add @createCommand(grammar)
+      @createCommand(grammar)
 
     @disposables.add atom.grammars.onDidAddGrammar (grammar) =>
-      @disposables.add @createCommand(grammar)
+      @createCommand(grammar)
 
   # Public: Deactivates the package.
   deactivate: ->
@@ -21,5 +21,5 @@ module.exports =
   createCommand: (grammar) ->
     if grammar?.name?
       workspaceElement = atom.views.getView(atom.workspace)
-      atom.commands.add workspaceElement, "set-syntax:#{grammar.name}", ->
+      @disposables.add atom.commands.add workspaceElement, "set-syntax:#{grammar.name}", ->
         atom.workspace.getActiveTextEditor()?.setGrammar(grammar)
