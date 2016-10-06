@@ -1,4 +1,8 @@
-# Set Syntax [![Build Status](https://travis-ci.org/lee-dohm/set-syntax.svg?branch=master)](https://travis-ci.org/lee-dohm/set-syntax) [![Dependency Status](https://david-dm.org/lee-dohm/set-syntax.svg)](https://david-dm.org/lee-dohm/set-syntax)
+# Set Syntax
+[![Build Status](https://travis-ci.org/lee-dohm/set-syntax.svg?branch=master)](https://travis-ci.org/lee-dohm/set-syntax)
+[![Dependency Status](https://david-dm.org/lee-dohm/set-syntax.svg)](https://david-dm.org/lee-dohm/set-syntax)
+[![apm](https://img.shields.io/apm/v/set-syntax.svg?maxAge=2592000)](https://atom.io/packages/set-syntax)
+[![apm](https://img.shields.io/apm/dm/set-syntax.svg?maxAge=2592000)](https://atom.io/packages/set-syntax)
 
 The Set Syntax Atom package creates easy Command Palette entries for setting the syntax of the current file.
 
@@ -21,4 +25,4 @@ There are no key bindings set by default, though you could set keys for specific
 
 ## Copyright
 
-Copyright &copy; 2014-2015 [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/set-syntax/blob/master/LICENSE.md) for details.
+Copyright &copy; [Lee Dohm](http://www.lee-dohm.com) and [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/set-syntax/blob/master/LICENSE.md) for details.
