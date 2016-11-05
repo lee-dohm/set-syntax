@@ -10,7 +10,7 @@ It is designed to make the transition to Atom easier for people migrating from S
 
 ## Usage
 
-Simply use the way you're used to in Sublime Text!
+Simply use the way you're used to in Sublime Text! Holding Control + Shift + P to bring up the syntax options.
 
 ![Set Syntax demonstration](https://raw.githubusercontent.com/lee-dohm/set-syntax/master/set-syntax.gif)
 
