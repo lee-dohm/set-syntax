@@ -10,7 +10,7 @@ It is designed to make the transition to Atom easier for people migrating from S
 
 ## Usage
 
-Simply use the way you're used to in Sublime Text! Holding Control + Shift + P to bring up the syntax options.
+Simply use the way you're used to in Sublime Text! Bring up the Command Palette and use the fuzzy search to enter the syntax you want. See the Atom Flight Manual for [instructions on how to show the Command Palette on your platform](http://flight-manual.atom.io/getting-started/sections/atom-basics/#command-palette).
 
 ![Set Syntax demonstration](https://raw.githubusercontent.com/lee-dohm/set-syntax/master/set-syntax.gif)
 
