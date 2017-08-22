@@ -22,4 +22,4 @@ module.exports =
     if grammar?.name?
       workspaceElement = atom.views.getView(atom.workspace)
       @disposables.add atom.commands.add workspaceElement, "set-syntax:#{grammar.name}", ->
-        atom.workspace.getActiveTextEditor()?.setGrammar(grammar)
+        atom.textEditors.setGrammarOverride(atom.workspace.getActiveTextEditor(), grammar.scopeName);
