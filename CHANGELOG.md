@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.4.0** &mdash; *Released: 2017-09-13*
+
+* [PR #15](https://github.com/lee-dohm/set-syntax/pull/15) by [@Ultrabenosaurus](https://github.com/Ultrabenosaurus) &mdash; Use `setGrammarOverride` so that the set syntax persists through restarts of the app (as long as you leave the individual editor open)
+
 ## **v0.3.2** &mdash; *Released: 2016-10-06*
 
 * :bug: [#11](https://github.com/lee-dohm/set-syntax/issues/11) &mdash; Better guard against undefined grammar names
