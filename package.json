@@ -2,7 +2,7 @@
   "name": "set-syntax",
   "author": "Lee Dohm <lee@lee-dohm.com>",
   "main": "./lib/main",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Creates easy Command Palette commands for setting the syntax of the current file",
   "keywords": [
     "grammar",
