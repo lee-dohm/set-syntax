@@ -23,6 +23,6 @@ There are no key bindings set by default, though you could set keys for specific
   'alt-cmd-Z': 'set-syntax:ruby'
 ```
 
-## Copyright
+## License
 
-Copyright &copy; [Lee Dohm](http://www.lee-dohm.com) and [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/set-syntax/blob/master/LICENSE.md) for details.
+[MIT](https://github.com/lee-dohm/set-syntax/blob/master/LICENSE.md)
